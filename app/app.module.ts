@@ -13,6 +13,7 @@ import {
     EventListResolver, 
     CreateSessionComponent,
     SessionListComponent,
+    DurationPipe,
 } from './events/index';
 import { EventsAppComponent } from './events-app.component';
 import { NavBarComponent } from './nav/navbar.component';
@@ -42,7 +43,8 @@ import { AuthService } from './user/auth.service';
         NavBarComponent,
         CreateSessionComponent,
         SessionListComponent,
-        CollapsibleWellComponent
+        CollapsibleWellComponent,
+        DurationPipe
     ],
     providers: [
         EventService, 
